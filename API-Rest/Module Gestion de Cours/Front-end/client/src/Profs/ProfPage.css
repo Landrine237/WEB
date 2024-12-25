@@ -1,0 +1,93 @@
+body{
+    background-color: lightgray;
+}
+
+.styled-table {
+    border-collapse: collapse;
+    margin: auto;
+    font-size: 0.9em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 800px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.15);
+}
+
+.styled-table thead tr{
+    background-color: rgb(33, 28, 17);
+    color : #ffffff;
+    text-align: left;
+}
+
+.styled-table th , .styled-table td{
+    padding : 12px 15px;
+}
+
+.styled-table tbody th{
+    border-bottom: 1px #dddddd;
+}
+
+.styled-table tr:nth-of-type(even){
+    background-color: #f3f3f3;
+
+}
+
+.styled-table tbody tr:last-of-type{
+    border-bottom: 2px solid  rgb(33, 28, 17);
+}
+
+.btn-edit{
+    border : none;
+    color : white;
+    padding: 5px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 4px 10px;
+    cursor : pointer;
+}
+
+.btn-edit{
+    background-color: #81a135;
+}
+
+.btn-delete {
+    background-color: #f44336 ;
+}
+
+.btn-view{
+    background-color: #9ed9db;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*body {
+    background-color: rgb(216, 225, 226);
+}
+.profTable{
+    width: 80%;
+    margin: 50px auto;
+    padding: 50px;
+}
+
+.profTable th , .profTable td{
+    padding: 10px;
+}
+
+.profTable.profTable th , .profTable td{
+    background-color: white;
+    border-radius: 10px;
+}*/
